@@ -1,0 +1,186 @@
+#mainPage {
+    width: 100%;
+}
+body {
+    font-size: 100%;
+}
+.leftdiv {
+    width: 22.5%;
+    display: inline-block;
+}
+.main {
+    width: 55%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.setts {
+    width: 100%;
+    display: inline-block;
+    margin-top: 6px;
+}
+.settsdesc {
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+.settsbut {
+    margin-top: 20px;
+    vertical-align: top;
+    width: 100%;
+    display: table;   /* Allow the centering to work */
+}
+.rightdiv {
+    width: 22.5%;
+    display: inline-block;
+}
+.contrast {
+    width: 100%;
+    background-color: #efefef;
+    display: inline-block;
+}
+.menu {
+    margin-top: 0px;
+    margin-right: 1.5%;
+    position:absolute;bottom:0;right:0;
+    vertical-align: bottom;
+    font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+/*                background-color: #333;*/
+}
+.menli {
+    float: right;
+}
+.menli a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.menli a:hover {
+    color: slategray;
+}
+#toolbar {
+    position: relative;
+    font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+    font-weight: 400;
+}
+.contact {
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2.3em;
+    font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-family: 'Oswald';
+    font-size: 1.1em;
+    font-family: 'Roboto', Ubuntu, Arial, sans-serif;
+    line-height: 1.4;
+}
+.readword {
+    color: #ED1C24;
+}
+.actword {
+    color: #0071BC;
+}
+a:link, a:visited {
+    color: #0071BC;
+    text-decoration: none;
+}
+a:hover, a:active {
+/*                color: #ED1C24;*/
+    color: slategray;
+}
+button{
+    border      : 0;
+    background  : transparent;
+    font-family : inherit;
+    font-size   : 1em;
+    cursor      : pointer;
+}
+button:focus, input[type="button"]:focus {
+    outline: none;
+}
+
+input[type=radio] ~ label {
+    color: slategray;
+}
+input[type=radio]:hover ~ label {
+    color: lightgray;
+}
+input[type="radio"] {
+    visibility:hidden;
+}
+input[type=radio]:checked ~ label{
+    color: #0071BC;
+    font-weight: 700;
+}
+input[type=checkbox] ~ label {
+    color: slategray;
+}
+input[type=checkbox]:hover ~ label {
+    color: lightgray;
+}
+input[type="checkbox"] {
+    visibility:hidden;
+}
+input[type=checkbox]:checked ~ label{
+    color: #0071BC;
+    font-weight: 700;
+}
+.setli {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Roboto', Ubuntu, Arial, sans-serif;
+}
+.setul {
+    text-align: left;
+}
+.whatwill {
+    width: 100%;
+    display: inline-block;
+}
+.whatwillim {
+    margin-top: 50px;
+    width: 32%;
+    display: inline-block;
+}
+.label {
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: top;
+    width: 80%;
+    font-weight: 300;
+}
+
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+    </head>
+    <body>
+        <style type="text/css">
+	        #mainPage {
+                width: 100%;
+                font-family: 'Oswald', Ubuntu, Arial, sans-serif;
+	        }
+            #vertdivs {
+                width: 100%;
+            }
+            #leftdiv {
+                width: 12.5%;
+                display: inline-block;
+            }
+            #textdiv {
+                width: 75%;
+                display: inline-block;
+            }
+            #donatediv {
+                width: 33.3%;
+                float: left;
+            }
+            #calldiv {
+                width: 33.3%;
+                float: left;
+            }
+            #attenddiv {
+                width: 33.4%;
+                float: left;
+            }
+            #rightdiv {
+                width: 12.5%;
+                display: inline-block;
+            }
+            #:hover #slide {
+                transition: 1s;
+                left: 0;
+            }
+            h3 {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 1.5em;
+            }
+            p {
+                margin-top: 3px;
+                margin-bottom: 3px;
+                margin-left: 30px;
+                margin-right: 30px;
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 1.0em;
+            }
+            button{
+                border      : 0;
+/*              background  : transparent;*/
+                font-family : inherit;
+                font-size   : 0.9em;
+                cursor      : pointer;
+            }
+            button:focus, input[type="button"]:focus {
+                outline: none;
+            }
+            .slidein {
+              text-align: center;
+                width: 0;
+                transition: width 1.0s ease;
+            }
+            .slideback {
+                text-align: center;
+                width: 100%;
+                transition: width 1.0s ease;
+            }
+        </style>
+        <div id="mainPage">
+        <img src="readact.png" alt="ReadAct" style="width:350px; margin-left: 20px;">
+        <div id="vertdivs">
+        <div id="leftdiv"></div>
+        <div id="textdiv">
+        <div id="donatediv">
+            <div id="donatetop" style="margin-left: 30px; margin-right: 30px;">
+            <br>
+        <button id="donatebut" style="background: url(flagcomma.png); height:180px; width:180px; display: block; margin: 0 auto;"></button>
+        <h3 id="donatelab" class="slideback">DONATE</h3>
+            </div>
+<!--        <h3>Donate to a political organization</h3>-->
+        <div id="donateinfo" style="display: none">
+        <p>Googling something you care about + "donate" will usually give you plenty of options for organizations working on that cause!</p>
+        <button id="donate" style="display: block; margin: 0 auto; padding-left: 30px; padding-right: 30px; margin-top: 8px">I donated!</button>
+        </div>
+        </div>
+        <div id="calldiv">
+            <div id="calltop" style="margin-left: 30px; margin-right: 30px;">
+            <br>
+        <button id="callbut" style="height:180px; width:180px; display: block; margin: 0 auto;">Call</button>
+        <h3 id="calllab" class="slideback">CALL</h3>
+            </div>
+<!--        <h3>Call your senator or congressperson</h3>-->
+        <div id="callinfo" style="display: none">
+        <p><a href="https://www.callmycongress.com/">This website</a> is very useful for finding the names and phone numbers of your local representatives, and <a href="http://www.alliantenergyretirees.com/wcm/groups/wcm_internet/@int/@ae/documents/application/mdaw/mde0/~edisp/014292.pdf">this script</a> can be helpful if you've never called a legislator before!</p>
+        <button id="call" style="display: block; margin: 0 auto; padding-left: 30px; padding-right: 30px; margin-top: 8px">I called!</button>
+        </div>
+        </div>
+        <div id="attenddiv">
+            <div id="attendtop" style="margin-left: 30px; margin-right: 30px;">
+            <br>
+        <button id="attendbut" style="height:180px; width:180px; display: block; margin: 0 auto;">Attend</button>
+        <h3 id="attendlab" class="slideback">ATTEND</h3>
+            </div>
+<!--        <h3>Plan to attent a public event or personal meeting</h3>-->
+        <div id="attendinfo" style="display: none">
+        <p>If you are planning to attend a town hall with you member of congress, <a href="http://www.fairus.org/toolkit/activism-guide-how-to-attend-a-town-hall-meeting">this guide</a> is quite helpful. For scheduling and carrying out a personal (or group) meeting with your representative, <a href="http://www.congressfoundation.org/storage/documents/CMF_Pubs/cmf-face-to-face-with-congress.pdf">this report</a> is crucial to make sure it is a productive sit-down.</p>
+        <button id="meetplan" style="display: block; margin: 0 auto; padding-left: 30px; padding-right: 30px; margin-top: 8px">I planned!</button>
+        <button id="meetgo" style="margin-left: 10px; display: block; margin: 0 auto;">I attended!</button>
+        </div>
+        </div>
+        </div>
+        <div id="rightdiv"></div>
+        <br>
+        <br>
+        <br>
+        <p><a href="startup.html">Settings</a></p>
+        </div>
+        <script src="altwindow.js"></script>
+        </div>
+    </body>
+</html>
