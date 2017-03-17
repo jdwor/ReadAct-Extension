@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "settings.css" />
+    </head>
+    <body>
+        <div id="mainPage">
+            <div id="toolbar">
+                <a href="http://www.readact.us">
+                    <img src="ims/readact.png" alt="ReadAct" style="width:350px; margin-left:20px;">
+                </a>
+                <ul class="menu">
+                    <li class="menli" style="width:100%; height:50%;"></li>
+                    <li class="menli"><a href="http://www.readact.us/faq">FAQ</a></li>
+                    <li class="menli"><a href="http://www.readact.us/actionguide">ACTION GUIDE</a></li>
+                    <li class="menli"><a href="http://www.readact.us">MAIN</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="leftdiv"></div>
+                <div class="main">
+                    <h1>Settings</h1>
+                    <p>Select the options that you would like to change and click the submit button to save your settings. If the choices given below don't fit your needs, feel free to reach out to us directly at contact [at] readact.us.</p>
+                </div>
+                <div class="rightdiv"></div>
+            </div>
+            <div class="contrast">
+                <div class="leftdiv"></div>
+                <div class="main">
+                    <div class="setts">
+                        <div class="settsdesc">
+                            <h3>Tweaks</h3>
+                            <p style="margin-top:20px">What changes would you like to make to your settings?</p>
+                        </div>
+                        <div class="settsbut">
+                            <ul class="setul">
+                                <li class="setli">
+                                    <input type="checkbox" id="morefreq" name="tweaks">
+                                    <label for="morefreq">Make reminders more frequent</label>
+                                    <div class="check"></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="checkbox" id="lessfreq" name="tweaks">
+                                    <label for="lessfreq">Make reminders less frequent</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="checkbox" id="snooze" name="tweaks">
+                                    <label for="snooze">Snooze reminders temporarily</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                            </ul>
+                            <br>
+                            <button id="submittweaks">
+                                <img src="ims/submit.png" style="height:35px; margin-left:-5px; margin-top:3px;">
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+<!--
+                    <div class="setts" id="readandactdown" style="display:none;">
+                        <div class="settsdesc">
+                            <button id="radownbut">
+                                <h3>Reading and Acting &#9660</h3>
+                            </button>
+                        </div>
+                    </div>
+-->
+                    <div class="setts" id="readandactup" style="display:block;">
+                        <div class="settsdesc">
+<!--                            <button id="raupbut">-->
+                                <h3>Reading and Acting <!--&#9650--></h3>
+<!--                            </button>-->
+                            <p style="margin-top:20px;">To what degree do you currently consume political news on your computer?</p>
+                        </div>
+                        <div class="settsbut">
+                            <ul class="setul">
+                                <li class="setli">
+                                    <input type="radio" id="disengaged" name="engagement">
+                                    <label for="disengaged">Disengaged</label>
+                                    <div class="check"></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="occasional" name="engagement">
+                                    <label for="occasional">Occasional reader</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input checked type="radio" id="engaged" name="engagement">
+                                    <label for="engaged">Engaged</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="avid" name="engagement">
+                                    <label for="avid">Avid reader</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="pundit" name="engagement">
+                                    <label for="pundit">Pundit</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="settsdesc">
+                            <p>How often would you like to participate in the political process?</p>
+                        </div>
+                        <div class="settsbut">
+                            <ul class="setul">
+                                <li class="setli">
+                                    <input type="radio" id="monthly" name="activity">
+                                    <label for="monthly">Monthly</label>
+                                    <div class="check"></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="fewweeks" name="activity">
+                                    <label for="fewweeks">Every few weeks</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input checked type="radio" id="weekly" name="activity">
+                                    <label for="weekly">Weekly</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="fewdays" name="activity">
+                                    <label for="fewdays">Every few days</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                                <li class="setli">
+                                    <input type="radio" id="daily" name="activity">
+                                    <label for="daily">Daily</label>
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                            </ul>
+                            <br>
+                            <button id="submit">
+                                <img src="ims/submit.png" style="height:35px; margin-left:-5px; margin-top:3px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rightdiv"></div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="leftdiv"></div>
+                <div class="main">
+                    <h3 class="contact">Contact</h3>
+                    <p style="margin-top: 10px;"><span class="readword">Read,</span> <span class="actword">Act</span></p>
+                    <p style="margin-top: 0px;">Philadelphia, PA</p>
+                    <p style="margin-top: 0px;">contact [at] readact.us</p>
+                </div>
+                <div class="rightdiv"></div>
+            </div>
+        </div>
+        <script src="settings.js"></script>
+    </body>
+</html>
+
+
+
